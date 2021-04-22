@@ -1,5 +1,5 @@
 PKG_NAME := gedit-plugins-gnome
-URL = https://gitlab.gnome.org/GNOME/gedit-plugins/-/archive/3.38.2/gedit-plugins-3.38.2.tar.gz
+URL = https://download.gnome.org/sources/gedit-plugins/40/gedit-plugins-40.0.tar.xz
 ARCHIVES = 
 
 include ../common/Makefile.common
