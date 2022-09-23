@@ -4,7 +4,7 @@
 #
 Name     : gedit-plugins-gnome
 Version  : 42.1
-Release  : 10
+Release  : 11
 URL      : https://download.gnome.org/sources/gedit-plugins/42/gedit-plugins-42.1.tar.xz
 Source0  : https://download.gnome.org/sources/gedit-plugins/42/gedit-plugins-42.1.tar.xz
 Summary  : No detailed summary available
