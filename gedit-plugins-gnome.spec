@@ -4,7 +4,7 @@
 #
 Name     : gedit-plugins-gnome
 Version  : 42.1
-Release  : 12
+Release  : 13
 URL      : https://download.gnome.org/sources/gedit-plugins/42/gedit-plugins-42.1.tar.xz
 Source0  : https://download.gnome.org/sources/gedit-plugins/42/gedit-plugins-42.1.tar.xz
 Summary  : No detailed summary available
@@ -78,7 +78,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1654617429
+export SOURCE_DATE_EPOCH=1664145051
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -92,7 +92,7 @@ ninja -v -C builddir
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/gedit-plugins-gnome
-cp %{_builddir}/gedit-plugins-42.1/COPYING %{buildroot}/usr/share/package-licenses/gedit-plugins-gnome/68c94ffc34f8ad2d7bfae3f5a6b996409211c1b1
+cp %{_builddir}/gedit-plugins-%{version}/COPYING %{buildroot}/usr/share/package-licenses/gedit-plugins-gnome/68c94ffc34f8ad2d7bfae3f5a6b996409211c1b1 || :
 DESTDIR=%{buildroot} ninja -C builddir install
 %find_lang gedit-plugins
 
