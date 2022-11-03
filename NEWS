@@ -1,3 +1,20 @@
+News in 43.1, 2022-11-03
+------------------------
+* Be able to build with Meson >= 0.61
+
+News in 43.0, 2022-11-03
+------------------------
+* Come back to the source code of gedit-plugins a little before version 40.0,
+  and continue again from there. It is based on the Tepl library.
+
+* Remove several plugins:
+    - translate
+    - find in files
+    - commander
+  Any help to give them a new life would be much welcomed.
+
+* Translation updates.
+
 News in 42.1, 2022-05-27
 ------------------------
 * Translation updates.
