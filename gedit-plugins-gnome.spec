@@ -4,7 +4,7 @@
 #
 Name     : gedit-plugins-gnome
 Version  : 43.1
-Release  : 14
+Release  : 15
 URL      : https://download.gnome.org/sources/gedit-plugins/43/gedit-plugins-43.1.tar.xz
 Source0  : https://download.gnome.org/sources/gedit-plugins/43/gedit-plugins-43.1.tar.xz
 Summary  : No detailed summary available
